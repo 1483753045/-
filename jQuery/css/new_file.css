@@ -1,0 +1,521 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* 第一行图片/汉字/下载 */
+.one {
+	height: 200px;
+	width: 100%;
+	position: relative;
+}
+
+.one a {
+	text-decoration: none;
+}
+
+.one li img {
+	width: 120px;
+	margin-left: 10%;
+	margin-top: 4%;
+	position: absolute;
+}
+
+.one h4 {
+	color: slateblue;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 18%;
+	cursor: pointer;
+}
+
+.one h2 {
+	color: slateblue;
+	position: absolute;
+	margin-top: 6.5%;
+	margin-left: 18%;
+	cursor: pointer;
+}
+
+.one p {
+	margin-left: 80%;
+	margin-top: 5%;
+	position: absolute;
+}
+
+.one #two {
+	height: 20px;
+	width: 1px;
+	background: dimgray;
+	border: 0.1px solid dimgray;
+	margin-left: 85%;
+	margin-top: 5%;
+	position: absolute;
+}
+
+/* 第二行导航栏 */
+.one #one {
+	width: 80%;
+	height: 100px;
+	margin-left: 8%;
+	margin-top: 11%;
+	position: absolute;
+}
+
+.one #one li {
+	float: left;
+	padding-left: 3%;
+}
+
+/* 第三行倒计时 */
+.two {
+	margin-top: 3%;
+	height: 200px;
+	width: 100%;
+	background: #000033;
+	position: relative;
+}
+
+.two img {
+	height: 200px;
+	padding-left: 3%;
+	position: absolute;
+}
+
+.two #three {
+	margin-left: 40%;
+	position: absolute;
+}
+
+.djs>div>h3 {
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.djs>div>div {
+	width: 500px;
+	text-align: center;
+	background: rgba(255, 255, 255, .4);
+}
+
+.djs>div>div>div {
+	display: inline-block;
+	padding: 20px;
+}
+
+.djs>div>div>div>span {
+	display: block;
+}
+
+.djs>div>div>div>span:first-of-type {
+	font-size: 26px;
+}
+
+.two #time {
+	margin-left: ;
+	width: 216px;
+	height: 26px;
+	border: solid 1px #000033;
+	position: absolute;
+	color: sandybrown;
+	margin-top: 5%;
+	margin-left: 8%;
+	font-size: 35px;
+}
+
+/* 新闻中心 */
+.three {
+	position: relative;
+	height: 750px;
+}
+
+.three #four {
+	width: 35%;
+	border: 0.5px solid silver;
+	margin-top: 8%;
+	position: absolute;
+	margin-left: 5%;
+}
+
+.three h3 {
+	margin-left: 47%;
+	margin-top: 7%;
+	position: absolute;
+}
+
+.three #five {
+	margin-top: 8%;
+	width: 35%;
+	margin-left: 60%;
+	border: 0.5px solid silver;
+	position: absolute;
+}
+
+/* 轮播图 */
+.img-class {
+	height: 470px;
+	width: 800px;
+	position: absolute;
+}
+
+.lbt>ul {
+	list-style: none;
+}
+
+.lbt {
+	position: absolute;
+	width: 800px;
+	margin-left: 13%;
+	margin-top: 15%;
+}
+
+.lbt>ul>li {
+	display: absolute;
+	display: none;
+}
+
+.lbt>ul>li:first-of-type {
+	display: block;
+}
+
+.arrow-left,
+.arrow-right {
+	width: 50px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	margin-top: 24%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.arrow-right {
+	right: 0px;
+}
+
+.arrow {
+	display: none;
+}
+
+.lbt:hover>.arrow {
+	display: block;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.lbt ul li p {
+	margin-top: 55%;
+	position: absolute;
+	color: white;
+	width: 800px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 30px;
+}
+
+/* 轮播图旁边的两张图 */
+.lct ul {
+	margin-left: 68%;
+	margin-top: 15%;
+	position: absolute;
+}
+
+.lct ul img {
+	height: 230px;
+	width: 340px;
+}
+
+.lct ul li p {
+	margin-top: -35px;
+	position: absolute;
+	color: white;
+	width: 340px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 30px;
+}
+
+/* 军运会公告栏 */
+.four {
+	height: 400px;
+	position: relative;
+}
+
+.four #seven #sss {
+	margin-left: 13%;
+	position: absolute;
+}
+
+.four #seven #ddd {
+	margin-left: 13%;
+	margin-top: 4%;
+	position: absolute;
+}
+
+.four a {
+	text-decoration: none;
+	color: #000033;
+}
+
+a:hover {
+	color: red;
+}
+
+.four #seven #zzz p {
+	font-size: 22px;
+	margin-top: 3%;
+}
+
+.four #seven #yyy p {
+	font-size: 22px;
+	margin-top: 3.7%;
+}
+
+.four #seven #zzz {
+	margin-left: 13%;
+	margin-top: 8%;
+	position: absolute;
+}
+
+.four #seven #yyy {
+	margin-left: 42%;
+	margin-top: 8.2%;
+	position: absolute;
+}
+
+.four #seven #sx {
+	height: 40px;
+	width: 1px;
+	background: black;
+	border: 0.1px solid black;
+	margin-left: 70%;
+	position: absolute;
+}
+
+.four #eight h1 {
+	margin-left: 71%;
+	position: absolute;
+}
+
+.four #eight ul li {
+	width: 320px;
+	padding-top: 1%;
+}
+
+.four #eight ul li p {
+	font-size: 20px;
+	margin-top: 3%;
+}
+
+.four #eight ul {
+	margin-left: 70%;
+	margin-top: 8%;
+	position: absolute;
+}
+
+.four #nine ul {
+	margin-top: 25%;
+	margin-left: 10%;
+	position: absolute;
+}
+
+.four #nine ul li {
+	float: left;
+	padding-left: 10px;
+}
+
+.four #nine ul li img {
+	width: 190px;
+}
+
+/* 精彩视频 */
+.five {
+	height: 700px;
+	position: relative;
+}
+
+.five #four {
+	width: 35%;
+	border: 0.5px solid silver;
+	margin-top: 8%;
+	position: absolute;
+	margin-left: 5%;
+}
+
+.five h3 {
+	margin-left: 47%;
+	margin-top: 7%;
+	position: absolute;
+}
+
+.five #five {
+	margin-top: 8%;
+	width: 35%;
+	margin-left: 60%;
+	border: 0.5px solid silver;
+	position: absolute;
+}
+
+.five #ten img {
+	width: 590px;
+	height: 420px;
+}
+
+.five #eleven img {
+	width: 285px;
+	height: 200px;
+}
+
+.five #ten {
+	margin-top: 16%;
+	margin-left: 10%;
+	position: absolute;
+}
+
+.five #eleven #zb {
+	margin-left: 50%;
+	margin-top: 16%;
+	position: absolute;
+}
+
+.five #eleven #yb {
+	margin-left: 50%;
+	margin-top: 30.4%;
+	position: absolute;
+}
+
+.five #eleven #zb li {
+	margin-left: 10px;
+	float: left;
+}
+
+.five #eleven #yb li {
+	margin-left: 10px;
+	float: left;
+}
+
+/* 军运项目 */
+.six {
+	height: 800px;
+	position: relative;
+}
+
+.six #four {
+	width: 35%;
+	border: 0.5px solid silver;
+	margin-top: 8%;
+	position: absolute;
+	margin-left: 5%;
+}
+
+.six h3 {
+	margin-left: 47%;
+	margin-top: 7%;
+	position: absolute;
+}
+
+.six #five {
+	margin-top: 8%;
+	width: 35%;
+	margin-left: 60%;
+	border: 0.5px solid silver;
+	position: absolute;
+}
+
+/* 第一个大的图片 */
+.six #twelve {
+	margin-top: 12%;
+	margin-left: 10%;
+	position: absolute;
+	/* display: none; */
+}
+
+/* 第二个大的图片 */
+.six #thirteen {
+	margin-top: 12%;
+	margin-left: 10%;
+	position: absolute;
+	/* display: none; */
+}
+
+/* 第三个大的图片 */
+.six #fourteen {
+	margin-top: 12%;
+	margin-left: 10%;
+	position: absolute;
+	/* display: none; */
+}
+
+/* 第四个大的图片 */
+.six #fifteen {
+	margin-top: 12%;
+	margin-left: 10%;
+	position: absolute;
+	/* display: none; */
+}
+
+.left,
+.right {
+	width: 50px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	margin-top: 50px;
+	top: 40%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.right {
+	right: 0px;
+}
+
+.six .seven {
+	display: none;
+}
+
+.six .seven:first-of-type {
+	display: block;
+}
+
+.left,
+.right {
+	width: 50px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	margin-top: 50px;
+	top: 40%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.right {
+	right: 0px;
+}
